@@ -1,0 +1,82 @@
+.header {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.header__logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header__logoContainer i {
+  display: block;
+  font-size: 3.9rem;
+  margin-right: 1.4rem;
+  background: linear-gradient(to left, #08ec1c, #ffca33, #2f99ff, #ff4242);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation-name: logoAnimationRotate;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes logoAnimationRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logoAnimationColors {
+  0% {
+    color: #08ec1c;
+  }
+
+  25% {
+    color: #2f99ff;
+  }
+
+  50% {
+    color: #ff4242;
+  }
+
+  75% {
+    color: #ffca33;
+  }
+
+  100% {
+    color: #08ec1c;
+  }
+}
+
+.header__logo {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: "Suez One", serif;
+}
+
+@media (min-width: 760px) {
+}
+
+@media (min-width: 1200px) {
+  .header__logo {
+    font-size: 2.8rem;
+  }
+
+  .header__logoContainer {
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    padding-top: 1.2rem;
+  }
+}

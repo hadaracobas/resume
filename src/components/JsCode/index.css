@@ -1,0 +1,76 @@
+.jscode {
+}
+
+.jscode__title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.jscode__title a {
+  text-decoration: underline;
+}
+
+.jscode__challengesContainer {
+  margin: 2.5rem 0 1rem;
+  font-size: 1.6rem;
+}
+
+.jscode__challenge {
+  border: 0.3rem solid;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.jscode__challenge h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.jscode__question {
+  margin: 0 0 1rem;
+}
+
+.jscode__nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jscode__nav span {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0 1rem;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.jscode__nav span i {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+@media (min-width: 760px) {
+  .jscode__challengesContainer {
+    margin: 3.5rem 0 1rem;
+  }
+
+  .jscode__nav {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jscode__title {
+    width: 60%;
+  }
+
+  .jscode__challengesContainer {
+    margin: 5.5rem 0 1rem;
+  }
+
+  .jscode__challenge h4 {
+    font-weight: 400;
+  }
+
+  .jscode__challenge {
+  }
+}

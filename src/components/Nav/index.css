@@ -1,0 +1,30 @@
+.nav {
+  display: none;
+}
+
+.nav__menu a {
+  font-size: 1.5rem;
+  padding-right: 4.8rem;
+  font-weight: 400;
+  display: inline-block;
+}
+.nav__menu a::after {
+  content: "";
+  width: 0px;
+  height: 0.1rem;
+  display: block;
+  background: transparent;
+  transition: 500ms;
+}
+
+.nav__menu a:hover::after {
+  width: 100%;
+  background: var(--textColor);
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    display: flex;
+    align-items: flex-end;
+  }
+}

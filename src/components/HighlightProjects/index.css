@@ -1,0 +1,42 @@
+.highlightProjects {
+  margin-bottom: 10rem;
+}
+
+.highlightProjects__project2Container {
+  margin-top: 6rem;
+}
+
+.highlightProjects__navProjects {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.highlightProjects__navProjects span {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0 1rem;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.highlightProjects__navProjects span i {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+@media (min-width: 760px) {
+  .highlightProjects__navProjects {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .highlightProjects__projectsContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .highlightProjects__project2Container {
+    margin-top: 3.5rem;
+  }
+}
