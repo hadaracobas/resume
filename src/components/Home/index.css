@@ -8,7 +8,7 @@
   margin: 8rem 0 6rem;
 }
 
-.section-title span {
+.section-title .section-title-span-color {
   display: block;
   position: absolute;
   left: -1.1rem;
@@ -24,7 +24,7 @@
     font-size: 6.4rem;
   }
 
-  .section-title span {
+  .section-title .section-title-span-color {
     width: 9rem;
     height: 9rem;
   }
@@ -36,7 +36,7 @@
     margin: 23rem 0 5rem;
   }
 
-  .section-title span {
+  .section-title .section-title-span-color {
     width: 10rem;
     height: 10rem;
   }
@@ -173,8 +173,8 @@
   }
 
   .profile-image {
-    width: 34rem;
-    height: 34rem;
+    width: 28rem;
+    height: 28rem;
     margin-top: 2rem;
   }
 
@@ -194,7 +194,7 @@
   margin-top: 10rem;
 }
 
-.homeResume__sectionTitle span {
+.homeResume__sectionTitle .section-title-span-color {
   background-color: var(--blue);
 }
 
@@ -303,7 +303,7 @@
 
 /* HOME PROJECTS SECTION STYLES: */
 
-.homeProjects__sectionTitle span {
+.homeProjects__sectionTitle .section-title-span-color {
   background-color: var(--green);
 }
 
@@ -311,7 +311,7 @@
 .homeAbout {
 }
 
-.homeAbout__sectionTitle span {
+.homeAbout__sectionTitle .section-title-span-color {
   background-color: var(--red);
 }
 
@@ -367,13 +367,13 @@
 
 /* HOME JSCODE SECTION STYLES: */
 
-.homeJscode__sectionTitle span {
+.homeJscode__sectionTitle .section-title-span-color {
   background-color: var(--yellow);
 }
 
 /* HOME CONTACT SECTION STYLES: */
 
-.homeContact__sectionTitle span {
+.homeContact__sectionTitle .section-title-span-color {
   background: linear-gradient(259deg, #08ec1c, #ff4242, #ffca33, #2f99ff);
   background-size: 800% 800%;
 

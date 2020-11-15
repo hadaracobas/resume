@@ -28,7 +28,7 @@ function Header(props) {
       <div className="header__logoContainer">
         {/*<FontAwesomeIcon icon={faCode} />*/}
         <i class="fas fa-code"></i>
-        <a href="#" className="header__logo">
+        <a href="#" className="header__logo" style={{ cursor: "auto" }}>
           acobas.hadar@gmail.com
         </a>
       </div>

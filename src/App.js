@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 
 function App() {
-  const [handleColorsTheme, setHandleColorsTheme] = useState("black-theme");
+  const [handleColorsTheme, setHandleColorsTheme] = useState("white-theme");
   const [disabledColorTheme, setDisabledColorTheme] = useState("black-theme");
 
   useEffect(() => {
@@ -21,23 +21,13 @@ function App() {
       setDisabledColorTheme("black-theme");
     }
   }, [handleColorsTheme]);
-  /*
-  const changeColorThemeFunc = (e) => {
-    e.preventDefault();
-    if (handleColorsTheme === "white-theme") {
-      setHandleColorsTheme("black-theme");
-    } else if (handleColorsTheme === "black-theme") {
-      setHandleColorsTheme("white-theme");
-    }
-  };
 
-*/
   const changeColorThemeFunc = () => {
     let inputSlider = document.getElementById("slider");
     if (inputSlider.checked) {
-      setHandleColorsTheme("white-theme");
-    } else {
       setHandleColorsTheme("black-theme");
+    } else {
+      setHandleColorsTheme("white-theme");
     }
   };
 
@@ -113,6 +103,7 @@ function App() {
         scrollToAbout={scrollToAboutFunc}
         scrollToJscode={scrollToJscodeFunc}
         scrollToContact={scrollToContactFunc}
+        colorTheme={handleColorsTheme}
       />
       <Footer />
     </div>
