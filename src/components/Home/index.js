@@ -317,12 +317,12 @@ function Home(props) {
               <h3 className="homeResume__title">Work Experience</h3>
 
               <h5 className="homeResume__subtitle">
-                Decathlon Austria GmbH, Wien
+                Decathlon Austria GmbH, Vienna
               </h5>
               <p className="homeResume__text">Front End Developer </p>
               <p className="homeResume__dates">Aug 2020 - present</p>
 
-              <h5 className="homeResume__subtitle">OMT Handels GmbH, Wien</h5>
+              <h5 className="homeResume__subtitle">OMT Handels GmbH, Vienna</h5>
               <p className="homeResume__text">E-Commerce Store Management</p>
               <p className="homeResume__dates">Feb 2019 - Feb 2020</p>
             </div>
