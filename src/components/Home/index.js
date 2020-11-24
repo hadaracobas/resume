@@ -365,7 +365,7 @@ function Home(props) {
             </div>
           </div>
           <a
-            href="assets/pdf/EN_CV+Certificates_Hadar Acobas2.7.pdf"
+            href="assets/pdf/EN_CV+Certificates_Hadar Acobas2.9.pdf"
             className="homeResume__downloadCvBtn"
             download
           >
